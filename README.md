@@ -2,7 +2,7 @@
 
 CVPR 2024
 
-Mustafa Munir, William Avery, Mostafijur Rahman, and Radu Marculescu
+Mustafa Munir, William Avery, Md Mostafijur Rahman, and Radu Marculescu
 
 # Overview
 This repository contains the source code for GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs
