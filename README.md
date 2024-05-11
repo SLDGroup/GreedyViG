@@ -131,6 +131,13 @@ mim install mmcv-full
 mim install "mmsegmentation <=0.30.0"
 ```
 
+## Semantic Segmentation
+
+Semantic segmentation on ADE20K is implemented based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation). We follow settings and hyper-parameters of [PVT](https://github.com/whai362/PVT/tree/v2/segmentation), [PoolFormer](https://github.com/sail-sg/poolformer), and [EfficientFormer](https://github.com/snap-research/EfficientFormer) for comparison. 
+
+All commands for semantic segmentation should be run from the GreedyViG/segmentation/ directory.
+
+
 ### Train semantic segmentation:
 
 8 GPUs, 40K Iterations
