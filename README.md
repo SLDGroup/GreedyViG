@@ -1,6 +1,6 @@
 ## GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs
 
-CVPR 2024
+CVPR 2024 | [Arxiv](https://arxiv.org/abs/2405.06849)
 
 Mustafa Munir, William Avery, Md Mostafijur Rahman, and Radu Marculescu
 
@@ -143,4 +143,15 @@ All commands for semantic segmentation should be run from the GreedyViG/segmenta
 8 GPUs, 40K Iterations
 ```
 python -m torch.distributed.launch --nproc_per_node 8 --nnodes 1 --node_rank 0 train.py configs/sem_fpn/fpn_greedyvig_s_ade20k_40k.py --greedyvig_model greedyvig_s --work-dir semantic_results/ --launcher pytorch > semantic_results/greedyvig_s_run_semantic.txt
+```
+
+
+### Citation
+```
+@article{greedyvig2024,
+      title={GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs}, 
+      author={Mustafa Munir and William Avery and Md Mostafijur Rahman and Radu Marculescu},
+      journal={arXiv preprint arxiv:2405.06849},
+      year={2024}
+}
 ```
