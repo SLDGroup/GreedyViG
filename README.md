@@ -1,6 +1,8 @@
 ## GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs
 
-CVPR 2024 | [Arxiv](https://arxiv.org/abs/2405.06849)
+CVPR 2024
+
+[PDF](https://openaccess.thecvf.com/content/CVPR2024/html/Munir_GreedyViG_Dynamic_Axial_Graph_Construction_for_Efficient_Vision_GNNs_CVPR_2024_paper.html) | [Arxiv](https://arxiv.org/abs/2405.06849)
 
 Mustafa Munir, William Avery, Md Mostafijur Rahman, and Radu Marculescu
 
@@ -147,11 +149,38 @@ python -m torch.distributed.launch --nproc_per_node 8 --nnodes 1 --node_rank 0 t
 
 
 ### Citation
+
+If our code or models help your work, please cite MobileViG (CVPRW 2023), MobileViGv2 (CVPRW 2024), and GreedyViG (CVPR 2024):
+
 ```
-@article{greedyvig2024,
-      title={GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs}, 
-      author={Mustafa Munir and William Avery and Md Mostafijur Rahman and Radu Marculescu},
-      journal={arXiv preprint arxiv:2405.06849},
-      year={2024}
+@InProceedings{GreedyViG_2024_CVPR,
+    author    = {Munir, Mustafa and Avery, William and Rahman, Md Mostafijur and Marculescu, Radu},
+    title     = {GreedyViG: Dynamic Axial Graph Construction for Efficient Vision GNNs},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {6118-6127}
+}
+```
+
+```
+@InProceedings{mobilevig2023,
+    author    = {Munir, Mustafa and Avery, William and Marculescu, Radu},
+    title     = {MobileViG: Graph-Based Sparse Attention for Mobile Vision Applications},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {2211-2219}
+}
+```
+
+```
+@InProceedings{MobileViGv2_2024,
+    author    = {Avery, William and Munir, Mustafa and Marculescu, Radu},
+    title     = {Scaling Graph Convolutions for Mobile Vision},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {5857-5865}
 }
 ```
