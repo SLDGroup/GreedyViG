@@ -1,201 +1,55 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+Greedy ViG
+8614 MAR
+UT AUSTIN RESEARCH LICENSE
+(NONCONFIDENTIAL SOURCE CODE)
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+The University of Texas at Austin has developed certain software and documentation that it desires to make available without charge to anyone for academic, research, experimental or personal use. If you wish to distribute or make other use of the software, you may purchase a license to do so from The University of Texas at Austin (licensing@otc.utexas.edu). 
+The accompanying source code is made available to you under the terms of this UT Research License (this “UTRL”). By installing or using the code, you are consenting to be bound by this UTRL. If you do not agree to the terms and conditions of this license, do not install or use any part of the code. 
+The terms and conditions in this UTRL not only apply to the source code made available by Licensor, but also to any improvements to, or derivative works of, that source code made by you and to any object code compiled from such source code, improvements or derivative works.
 
-   1. Definitions.
+1.  DEFINITIONS. 
+1.1  “Commercial Use” shall mean use of Software or Documentation by Licensee for direct or indirect financial, commercial or strategic gain or advantage, including without limitation: (a) bundling or integrating the Software with any hardware product or another software product for transfer, sale or license to a third party (even if distributing the Software on separate media and not charging for the Software); (b) providing customers with a link to the Software or a copy of the Software for use with hardware or another software product purchased by that customer; or (c) use in connection with the performance of services for which Licensee is compensated. 
+1.2  “Derivative Products” means any improvements to, or other derivative works of, the Software made by Licensee, and any computer software programs, and accompanying documentation, developed by Licensee which are a modification of, enhancement to, derived from or based upon the Licensed Software or documentation provided by Licensor for the Licensed Software, and any object code compiled from such computer software programs.
+1.3  “Documentation” shall mean all manuals, user documentation, and other related materials pertaining to the Software that are made available to Licensee in connection with the Software.
+1.4  “Licensor” shall mean The University of Texas at Austin, on behalf of the Board of Regents of the University of Texas System, an agency of the State of Texas, whose address is 3925 W. Braker Lane, Suite 1.9A (R3500), Austin, Texas 78759.
+1.5  “Licensee” or “you” shall mean the person or entity that has agreed to the terms hereof and is exercising rights granted hereunder.
+1.6  “Software” shall mean the computer program(s) referred to as: “Greedy ViG” (UT Tech ID 8614 MAR), which is made available under this UTRL in source code form, including any error corrections, bug fixes, patches, updates or other modifications that Licensor may in its sole discretion make available to Licensee from time to time, and any object code compiled from such source code.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+2.  GRANT OF RIGHTS. 
+Subject to the terms and conditions hereunder, Licensor hereby grants to Licensee a worldwide, non-transferable, non-exclusive license to (a) install, use and reproduce the Software for academic, research, experimental and personal use (but specifically excluding Commercial Use); (b) use and modify the Software to create Derivative Products, subject to Section 3.2; (c) use the Documentation, if any, solely in connection with Licensee’s authorized use of the Software; and (d) a non-exclusive, royalty-free license for academic, research, experimental and personal use (but specifically excluding Commercial Use) to those patents, of which Radu Marculescu or Jeff Liang is a named inventor, that are licensable by Licensee and that are necessarily infringed by such authorized use of the Software, and solely in connection with Licensee’s authorized use of the Software.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+3. RESTRICTIONS; COVENANTS. 
+3.1 Licensee may not: (a) distribute, sub-license or otherwise transfer copies or rights to the Software (or any portion thereof) or the Documentation; (b) use the Software (or any portion thereof) or Documentation for Commercial Use, or for any other use except as described in Section 2; (c) copy the Software or Documentation other than for archival and backup purposes; or (d) remove any product identification, copyright, proprietary notices or labels from the Software and Documentation. This UTRL confers no rights upon Licensee except those expressly granted herein.
+3.2 Derivative Products. Licensee hereby agrees that it will provide a copy of all Derivative Products to Licensor and that its use of the Derivative Products will be subject to all of the same terms, conditions, restrictions and limitations on use imposed on the Software under this UTRL. Licensee hereby grants Licensor a worldwide, non-exclusive, royalty-free license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense and distribute Derivative Products. Licensee also hereby grants Licensor a worldwide, non-exclusive, royalty-free patent license to make, have made, use, offer to sell, sell, import and otherwise transfer the Derivative Products under those patent claims, from patents of which Radu Marculescu or Jeff Liang is a named inventor, that licensable by Licensee that are necessarily infringed by the Derivative Products.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+4. CONFIDENTIALITY; PROTECTION OF SOFTWARE. 
+4.1 Reserved.
+4.2 Proprietary Notices. Licensee shall maintain and place on any copy of Software or Documentation that it reproduces for internal use all notices as are authorized and/or required hereunder. Licensee shall include a copy of this UTRL and the following notice, on each copy of the Software and Documentation. Such license and notice shall be embedded in each copy of the Software, in the video screen display, on the physical medium embodying the Software copy and on any Documentation:
+Copyright © 2021, The University of Texas at Austin. All rights reserved.
+UNIVERSITY EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES CONCERNING THIS SOFTWARE AND DOCUMENTATION, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR ANY PARTICULAR PURPOSE, NON-INFRINGEMENT AND WARRANTIES OF PERFORMANCE, AND ANY WARRANTY THAT MIGHT OTHERWISE ARISE FROM COURSE OF DEALING OR USAGE OF TRADE. NO WARRANTY IS EITHER EXPRESS OR IMPLIED WITH RESPECT TO THE USE OF THE SOFTWARE OR DOCUMENTATION. Under no circumstances shall University be liable for incidental, special, indirect, direct or consequential damages or loss of profits, interruption of business, or related expenses which may arise from use of Software or Documentation, including but not limited to those resulting from defects in Software and/or Documentation, or loss or inaccuracy of data of any kind.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+5. WARRANTIES.
+5.1 Disclaimer of Warranties. TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE AND DOCUMENTATION ARE BEING PROVIDED ON AN “AS IS” BASIS WITHOUT ANY WARRANTIES OF ANY KIND RESPECTING THE SOFTWARE OR DOCUMENTATION, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF DESIGN, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+5.2 Limitation of Liability. UNDER NO CIRCUMSTANCES UNLESS REQUIRED BY APPLICABLE LAW SHALL LICENSOR BE LIABLE FOR INCIDENTAL, SPECIAL, INDIRECT, DIRECT OR CONSEQUENTIAL DAMAGES OR LOSS OF PROFITS, INTERRUPTION OF BUSINESS, OR RELATED EXPENSES WHICH MAY ARISE AS A RESULT OF THIS LICENSE OR OUT OF THE USE OR ATTEMPT OF USE OF SOFTWARE OR DOCUMENTATION INCLUDING BUT NOT LIMITED TO THOSE RESULTING FROM DEFECTS IN SOFTWARE AND/OR DOCUMENTATION, OR LOSS OR INACCURACY OF DATA OF ANY KIND. THE FOREGOING EXCLUSIONS AND LIMITATIONS WILL APPLY TO ALL CLAIMS AND ACTIONS OF ANY KIND, WHETHER BASED ON CONTRACT, TORT (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE), OR ANY OTHER GROUNDS.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+6. INDEMNIFICATION. 
+Licensee shall indemnify, defend and hold harmless Licensor, the University of Texas System, their Regents, and their officers, agents and employees from and against any claims, demands, or causes of action whatsoever caused by, or arising out of, or resulting from, the exercise or practice of the license granted hereunder by Licensee, its officers, employees, agents or representatives.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+7.  TERMINATION. 
+If Licensee breaches this UTRL, Licensee’s right to use the Software and Documentation will terminate immediately without notice, but all provisions of this UTRL except Section 2 will survive termination and continue in effect. Upon termination, Licensee must destroy all copies of the Software and Documentation.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+8.  GOVERNING LAW; JURISDICTION AND VENUE. 
+The validity, interpretation, construction and performance of this UTRL shall be governed by the laws of the State of Texas. The Texas state courts of Travis County, Texas (or, if there is exclusive federal jurisdiction, the United States District Court for the Western District of Texas) shall have exclusive jurisdiction and venue over any dispute arising out of this UTRL, and Licensee consents to the jurisdiction of such courts. Application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. 
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+9.  EXPORT CONTROLS. 
+This license is subject to all applicable export restrictions. Licensee must comply with all export and import laws and restrictions and regulations of any United States or foreign agency or authority relating to the Software and its use. 
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+10.  U.S. GOVERNMENT END-USERS. 
+The Software is a “commercial item,” as that term is defined in 48 C.F.R. 2.101, consisting of “commercial computer software” and “commercial computer software documentation,” as such terms are used in 48 C.F.R. 12.212 (Sept. 1995) and 48 C.F.R. 227.7202 (June 1995). Consistent with 48 C.F.R. 12.212, 48 C.F.R. 27.405(b)(2) (June 1998) and 48 C.F.R. 227.7202, all U.S. Government End Users acquire the Software with only those rights as set forth herein. 
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+11. MISCELLANEOUS 
+If any provision hereof shall be held illegal, invalid or unenforceable, in whole or in part, such provision shall be modified to the minimum extent necessary to make it legal, valid and enforceable, and the legality, validity and enforceability of all other provisions of this UTRL shall not be affected thereby. Licensee may not assign this UTRL in whole or in part, without Licensor’s prior written consent. Any attempt to assign this UTRL without such consent will be null and void. This UTRL is the complete and exclusive statement between Licensee and Licensor relating to the subject matter hereof and supersedes all prior oral and written and all contemporaneous oral negotiations, commitments and understandings of the parties, if any. Any waiver by either party of any default or breach hereunder shall not constitute a waiver of any provision of this UTRL or of any subsequent default or breach of the same or a different kind.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+END OF LICENSE
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
-
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
-
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
-
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
-
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
-
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
-
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
-
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
-
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
-
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
-
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
-
-   END OF TERMS AND CONDITIONS
-
-   APPENDIX: How to apply the Apache License to your work.
-
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
-
-   Copyright [yyyy] [name of copyright owner]
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
